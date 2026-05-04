@@ -28,16 +28,16 @@ A deep learning-based real-time Facial Emotion Recognition system integrated wit
 
 ---
 
-## 📁 Project Structure
-│
-├── backend/ # FastAPI backend (API + chatbot logic)
-├── my_project/ # Main emotion detection pipeline
-├── test_model/ # Model testing and evaluation scripts
-├── model/ # Trained CNN model
-├── static/ # Frontend assets
-├── templates/ # HTML templates
-├── README.md
 
+## 📁 Project Structure
+
+- **backend/** → FastAPI backend handling API requests and chatbot logic  
+- **my_project/** → Core facial emotion detection pipeline  
+- **test_model/** → Scripts for testing and evaluating model performance  
+- **model/** → Pre-trained CNN model files  
+- **static/** → Frontend static files (CSS, JavaScript, images)  
+- **templates/** → HTML templates for web interface  
+- **README.md** → Project documentation  
 
 ---
 
@@ -47,13 +47,45 @@ A deep learning-based real-time Facial Emotion Recognition system integrated wit
 ```bash
 git clone https://github.com/your-username/Facial-Emotion-Detection.git
 cd Facial-Emotion-Detection
+```
 
-## Create Virtual environment
+---
+
+### 2. Create Virtual environment
+```bash
 python -m venv venv
 venv\Scripts\activate   # Windows
+```
+---
 
+### 3. Intsall Dependencies
+```bash
 pip install -r requirements.txt
+```
+---
+## ▶️ Running the Application
 
+### 🔹 Run FastAPI Backend
+```bash
 uvicorn backend.main:app --reload
+```
+
+---
+
+### 🔹 Run Chatbot (Python Script)
+```bash
+python cbapp.py
+```
+
+---
+
+### 🔹 Run Frontend (if using Node.js)
+```bash
+npm install
+npm run dev
+```
+
+
+
 
 
