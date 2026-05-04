@@ -1,0 +1,18 @@
+names:
+- angry
+- disgust
+- fear
+- happy
+- neutral
+- sad
+- surprise
+nc: 7
+roboflow:
+  license: CC BY 4.0
+  project: facial-expression-1oujf
+  url: https://universe.roboflow.com/robo-9a0pb/facial-expression-1oujf/dataset/1
+  version: 1
+  workspace: robo-9a0pb
+test: ../test/images
+train: ../train/images
+val: ../valid/images
